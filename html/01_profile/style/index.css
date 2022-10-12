@@ -1,6 +1,23 @@
-.sample {
-  font-size: 20px;
-  text-align: center;
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 32px;
+}
+
+.logoImage {
+  width: 96px;
+}
+
+.navLink {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  padding: 0 8px;
+}
+
+.keyVisualImage {
+  height: 480px;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {
