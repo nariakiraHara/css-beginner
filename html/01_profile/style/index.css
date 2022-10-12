@@ -1,6 +1,38 @@
-.sample {
-  font-size: 20px;
-  text-align: center;
+.header {
+  padding: 8px 0;
+}
+
+.headerContents {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+  display: block;
+}
+
+.nav {
+  display: flex;
+  margin: auto 0;
+}
+
+.navLink {
+  display: block;
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  padding: 0 8px;
+}
+
+.keyVisualImg {
+  object-fit: contain;
+}
+
+body {
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
