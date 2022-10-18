@@ -1,6 +1,39 @@
+li{
+  list-style:none;
+  float:left;
+}
+
+.header-logo{
+  font-size: ;
+  float:left;
+  padding: 20px;
+  margin-left:20px 20px;
+}
+
+.header-list{
+  font-size: ;
+  float:right;
+  padding: 20px;
+  margin-right:20px 20px;
+}
+
+
+
 .sample {
   font-size: 20px;
   text-align: center;
+}
+
+.container{
+  width:;
+  padding:;
+  margin:auto;
+}
+
+.top-wrapper{
+  padding:;
+  background-image:url();
+  color:;
 }
 
 @media screen and (max-width: 768px) {
