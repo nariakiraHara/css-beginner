@@ -1,39 +1,34 @@
 li{
   list-style:none;
-  float:left;
 }
 
-.header-logo{
-  font-size: ;
-  float:left;
-  padding: 20px;
-  margin-left:20px 20px;
+.header{
+  display:flex;
+  justify-content:space-between;
+  padding: 8px 0;
+  width: 650px;
+  margin: 0 auto;
 }
+
+.logoImage{
+  width: 70px;
+}
+
+
 
 .header-list{
-  font-size: ;
-  float:right;
-  padding: 20px;
-  margin-right:20px 20px;
+  font-size: 12px;
+  display: flex;
+  margin: auto 0;
 }
 
-
-
-.sample {
-  font-size: 20px;
-  text-align: center;
+.header-list li{
+  padding: 0 8px;
 }
 
-.container{
-  width:;
-  padding:;
-  margin:auto;
-}
-
-.top-wrapper{
-  padding:;
-  background-image:url();
-  color:;
+.keyVisual{
+  object-fit: cover;
+  height: 580px;
 }
 
 @media screen and (max-width: 768px) {
